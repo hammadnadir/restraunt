@@ -12,14 +12,9 @@ function Opening() {
         "Sunday": "1:00 PM to 11:00 AM"
     };
     return (
-        <div className='pt-[200px] backimage2 bg-no-repeat bg-cover'>
-            <div className="p-10 m-auto w-[700px]">
-                {/* <Head> */}
-                {/* <title>Restaurant Opening Hours</title>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" />
-    </Head> */}
-
-                <div className="text-center mb-10 text-4xl text-[#ffff] font-bold">Opening Hours</div>
+        <div className='pt-[160px] backimage2 bg-no-repeat bg-cover'>
+            <div className="p-10 m-auto w-700px max-w-100%">
+                <div className="text-center mb-10 text-4xl text-white font-bold">Opening Hours</div>
                 <table className="w-full text-left table-collapse rounded-lg shadow-lg">
                     <thead>
                         <tr className="text-white">
@@ -36,7 +31,7 @@ function Opening() {
                         ))}
                     </tbody>
                 </table>
-                <div className="text-center mt-10 text-xl text-[#ffff] font-bold">
+                <div className="text-center mt-10 text-xl text-white font-bold">
                     Call us at &nbsp;
                     <a href="tel: 01416110958" className="text-yellow-500 underline hover:text-yellow-600">01416110958</a>
                 </div>
@@ -45,4 +40,4 @@ function Opening() {
     )
 }
 
-export default Opening
+export default Opening;
